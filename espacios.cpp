@@ -4,7 +4,7 @@
 
 void concatenar_espacios ()
 {
-  char linea1[10], linea2[10];
+  char linea1[10] = "", linea2[10] = "";
   
   cout<<"Ingrese un texto.";
   cin>>linea1;  /*El "cin" solo lee hasta el primer espacio de la linea de texto. Por eso, cuando ingresamos, por ejemplo,
