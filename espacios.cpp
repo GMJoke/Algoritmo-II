@@ -10,13 +10,13 @@ void concatenar_espacios ()
   cin>>linea1;  /*El "cin" solo lee hasta el primer espacio de la linea de texto. Por eso, cuando ingresamos, por ejemplo,
                 "Punto Fijo", en linea1 solo quedara "Punto". */
                 
-  ctrcat(linea2, linea1); /* Esta funcion, pega al final de linea2 el contenido de linea1. Es decir:
+  strcat(linea2, linea1); /* Esta funcion, pega al final de linea2 el contenido de linea1. Es decir:
                           linea2 estaba vacion, y ahora le agregamos "Punto", que es el contenido de linea1. */
                           
   cin.get(linea1, 15);    /* Esta funcion lee el resto de caracteres luego del espacio, incluyendo los propios espacios. 
                           Es decir, ahora linea1 contiene " Fijo". */
                           
-  ctrcat(linea2, linea1); /* Volvemos a pegar el contenido de la linea1 (" Fijo") al final de la linea2 ("Punto"). De forma 
+  strcat(linea2, linea1); /* Volvemos a pegar el contenido de la linea1 (" Fijo") al final de la linea2 ("Punto"). De forma 
                           que ahora linea2 contiene "Punto Fijo" */
   
   cout<<linea1; // Cuando mostramos linea1, nos saldra el texto luego del primer espacio.
