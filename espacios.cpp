@@ -19,8 +19,8 @@ void concatenar_espacios ()
   strcat(linea2, linea1); /* Volvemos a pegar el contenido de la linea1 (" Fijo") al final de la linea2 ("Punto"). De forma 
                           que ahora linea2 contiene "Punto Fijo" */
   
-  cout<<linea1<<\n; // Cuando mostramos linea1, nos saldra el texto luego del primer espacio.
-  cout<<linea2<<\n; // Cuando mostramos linea2, nos aparece el texto completo.
+  cout<<linea1<<"\n"; // Cuando mostramos linea1, nos saldra el texto luego del primer espacio.
+  cout<<linea2<<"\n"; // Cuando mostramos linea2, nos aparece el texto completo.
 }
 
 main () 
